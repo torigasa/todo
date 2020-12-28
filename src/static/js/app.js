@@ -46,14 +46,14 @@ function TodoListCard() {
         },
         [items],
     );
-
+    document.write("ページに表示できます。</br>");
     if (items === null) return 'Loading...';
 
     return (
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">No items yet! Add one above!</p>
+                <p className="text-center">No items yet! Add one above!aaaaaaaaaaaaaaaaaaaaaaaaa</p>
             )}
             {items.map(item => (
                 <ItemDisplay
