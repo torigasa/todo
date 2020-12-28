@@ -46,7 +46,7 @@ function TodoListCard() {
         },
         [items],
     );
-
+    document.write("ページに表示できます。</br>");
     if (items === null) return 'Loading...';
 
     return (
